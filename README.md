@@ -1,31 +1,43 @@
-# 📞 Phonebook Application (C++)
+# 📞 Phonebook Project
 
-This is a simple Phonebook application written in C++.  
-It allows you to:
-- ✅ Add contacts (Name + Phone Number)
-- ✅ View all saved contacts
-- ✅ Search contacts by name
-
-Contacts are stored in a text file (`phonebook.txt`) for easy data handling.
+This repository contains **two versions** of a Phonebook project:
+1️⃣ **C++ Console App**  
+2️⃣ **Web App (HTML/CSS/JS)**  
 
 ---
 
-## 🚀 How to Run
+## 🟣 Phonebook C++ Console Version
+✅ Built using C++  
+✅ Allows adding, viewing, searching contacts  
+✅ Uses file handling to store data in a text file  
 
-👉 **Compile the code**
-g++ phonebook.cpp -o phonebook
-or
-g++ phonebook.cpp
-
-👉 **Run the executable**
-./phonebook       (Linux/Mac)
-phonebook.exe     (Windows)
----
-## ⚡ Features
-- Uses file handling to save and retrieve contacts.
-- Clean, formatted output using `iomanip`.
-- Works on all standard C++ compilers.
+**How to Run:**  
+- Open `phonebook.cpp` in a C++ compiler (Turbo C++ / GCC / CodeBlocks / etc.)  
+- Compile and run
 
 ---
 
-## 👤NIDHI KUSHWAHA
+## 🟣 Phonebook Web App Version
+✅ Built using HTML, CSS, JavaScript  
+✅ Add, view, search, delete, and clear contacts  
+✅ Data saved in browser's localStorage  
+✅ Works offline — no server required  
+
+**How to Run:**  
+- Open `index.html` in any browser  
+- Explore the interactive phonebook
+
+---
+
+## 📸 Screenshot
+![Phonebook Web App Screenshot](Screenshot.png)
+
+---
+
+## 👤 NIDHI KUSHWAHA  
+[GitHub Profile](https://github.com/Nishuthaku)
+
+---
+
+## 📝 License
+This project is open source and free to use.
