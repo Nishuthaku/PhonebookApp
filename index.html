@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Phonebook Web App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📞 Phonebook Web App</h1>
+
+    <form id="phonebookForm">
+      <input type="text" id="name" placeholder="Enter Name" required />
+      <input type="text" id="phone" placeholder="Enter Phone Number" required />
+      <button type="submit">Add Contact</button>
+    </form>
+
+    <p id="message" class="hidden"></p>
+
+    <input type="text" id="search" placeholder="Search Contact" />
+
+    <button id="clearAll">Clear All Contacts</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Phone Number</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="contactList">
+        <!-- Contacts will show here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
